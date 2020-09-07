@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: neg-demo-svc # Name of Service
+  name: native-lb-svc # Name of Service
   annotations:
     cloud.google.com/neg: '{"ingress": true}' # Creates a NEG after an Ingress is created
 spec: # Service's specification
   type: ClusterIP
   selector:
-    run: neg-demo-app # Selects Pods labelled run: neg-demo-app
+    run: native-lb # Selects Pods labelled run: neg-demo-app
   ports:
   - port: 80 # Service's port
     protocol: TCP
