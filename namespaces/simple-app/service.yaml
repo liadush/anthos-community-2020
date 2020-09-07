@@ -11,4 +11,4 @@ spec: # Service's specification
   ports:
   - port: 80 # Service's port
     protocol: TCP
-    targetPort: 9376
+    targetPort: 8080
