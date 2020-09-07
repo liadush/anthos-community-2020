@@ -15,7 +15,7 @@ spec:
         run: native-lb # Labels Pods from this Deployment
     spec: # Pod specification; each Pod created by this Deployment has this specification
       containers:
-      - image: gcr.io/liadush-258608/php-v1 # Application to run in Deployment's Pods
+      - image: gcr.io/liadush-258608/community # Application to run in Deployment's Pods
         name: liadush # Container name
         ports:
         - containerPort: 8080
