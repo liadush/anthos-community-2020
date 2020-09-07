@@ -5,6 +5,7 @@ metadata:
     run: native-lb # Label for the Deployment
   name: native-lb # Name of Deployment
 spec:
+  replicas: 3
   selector:
     matchLabels:
       run: native-lb
