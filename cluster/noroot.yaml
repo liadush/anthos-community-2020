@@ -13,7 +13,7 @@ spec:
       - gatekeeper-system
       - config-management-system
   parameters:
-    RunAsUser:
+    runAsUser:
       rule: MustRunAs
       ranges:
         - min: 100
