@@ -15,7 +15,7 @@
 ##################################################################################################
 # This file defines the services, service accounts, and deployments for the Bookinfo sample.
 #
-# To apply all 4 Bookinfo services, their corresponding service accounts, and deployments:
+# To apply all 4 Bookinfo services, their corresponding service account, and deployments:
 #
 #   kubectl apply -f samples/bookinfo/platform/kube/bookinfo.yaml
 #
