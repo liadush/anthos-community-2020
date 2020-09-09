@@ -1,5 +1,5 @@
 apiversion: constraint.gatekeeper.sh/v1beta1
-kind: k8spspallowedusers
+kind: K8sPSPAllowedUsers
 metadata:
   name : allowed-users
 spec:
