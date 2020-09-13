@@ -12,6 +12,7 @@ spec:
       - kube-system
       - gatekeeper-system
       - config-management-system
+      - bookinfo
   parameters:
     runAsUser:
       rule: MustRunAs
